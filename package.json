@@ -1,0 +1,20 @@
+{
+  "name": "vol-cli",
+  "version": "1.0.0",
+  "description": "Adjust audio using windows command line",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js", 
+    "create-exe": "npm install && pkg ." 
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "win-audio": "^2.0.2"
+  },
+  "bin": "index.js",
+  "devDependencies": {
+    "jest": "^26.2.2"
+  }
+}
